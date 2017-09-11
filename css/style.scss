@@ -520,6 +520,11 @@ section.open_source_proj {
       float: left;
     }
   }
+  section.wheretostart {
+    .col-md-4 {
+      float: left;
+    }
+  }
   div.ramldevel {
     .col-md-4 {
       float: left;
@@ -699,6 +704,32 @@ div.bottom-wrapper {
   }
 
 
+}
+
+section.wheretostart {
+  background: #f6f6f6;
+  text-align: center;
+  div.col-md-4 {
+    width: 32%;
+    padding-top: 20px;
+  }
+
+
+  div.thumbnail {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+
+    img {
+      padding-top: 15px;
+      margin-top: -24px;
+      margin-left: 11px;
+    }
+  }
+  div.caption {
+    font-size: 16px;
+    padding-left: 38px;
+  }
 }
 
 div.ramldevel {
@@ -969,7 +1000,6 @@ div.do-more-with-less {
 
 div.ramlenter {
   background: #f6f6f6;
-  padding: 29px 0 60px;
   font-size: 16px;
 
   .thumbnail {
